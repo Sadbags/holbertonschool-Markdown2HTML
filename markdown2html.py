@@ -12,7 +12,7 @@ input_file = sys.argv[1]
 output_file = sys.argv[2]
 
 if not os.path.isfile(input_file):
-    sys.stderr.write(f"Missing {input_file}"):
+    sys.stderr.write(f"Missing {input_file}")
     sys.exit(1)
 
 sys.exit(0)
